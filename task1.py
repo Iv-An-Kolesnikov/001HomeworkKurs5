@@ -6,7 +6,8 @@
 #     - 1 -> нет
 #==============================================================================================================
 day_week = int(input('Введите пожалуйста номер дня недели(число от 1 до 7): '))
-if day_week == 1 or day_week == 2 or day_week == 3 or day_week == 4 or day_week == 5:
+#if day_week == 1 or day_week == 2 or day_week == 3 or day_week == 4 or day_week == 5:
+if 1 <= day_week <= 5:
     print('День не выходной')
 elif day_week == 6 or day_week == 7:
     print('День выходной')
